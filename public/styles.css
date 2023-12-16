@@ -1,6 +1,5 @@
 html{
   font-family: Arial, sans-serif;
-  background-color: pink;
   background-image: url('moviePosters.jpg');
   display: flex;
   justify-content: center;
