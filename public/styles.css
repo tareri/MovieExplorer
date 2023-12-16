@@ -1,0 +1,85 @@
+html{
+  font-family: Arial, sans-serif;
+  background-color: pink;
+  background-image: url('moviePosters.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+
+}
+
+h1 {
+  color: white;
+}
+
+.main-box{
+  background-color: rgba(255, 0, 0, 0.84); /* Red color with 50% opacity */
+  padding: 20px; /* Add padding to make the effect more noticeable */
+  color: white; /* Text color on top of the semi-transparent background */
+  border: orangered 0.5rem solid ;
+  border-radius: 8px;
+}
+
+input[type="text"], textarea {
+  /* Change text color */
+  color: #333;
+  
+  /* Change background color */
+  background-color: #f0f0f0;
+
+  /* Add other styling properties as needed */
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 200px;
+  margin-left: .5rem;
+  border-radius: 8px;
+}
+
+input[type="submit"], input[type="reset"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #3498db;
+  color: #fff;
+  border: 2px solid black;
+  justify-content: right;
+  align-items: right;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  /* padding: 12px 25px; */
+  background-color: #2980b9;
+  
+}
+
+.button-lpink {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #3498db;
+  color: #fff;
+  border: 2px solid #3498db;
+  text-align: right;
+
+}
+
+.button-lpink:hover {
+  background-color: #2980b9;
+  border: 2px solid #2980b9;
+  text-align: right;
+}
+
+.button-container {
+  text-align: right;
+}

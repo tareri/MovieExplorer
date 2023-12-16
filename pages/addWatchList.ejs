@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset= "utf-8">
+        <title>Add to Watch List</title>
+        <link rel=stylesheet href="/styles.css">
+    </head>
+    <body>
+        <div class="main-box">
+        <a href = "/" class="button-link"> Back to HomePage</a>   
+        <h1>Add to Watch List</h1>
+        <form id="form" action="/submit" method="post">
+            <fieldset>
+                 <b>Email Address:</b><input type="text" id="email" name= "email"> <br>
+                 <br>
+                 <b>Movie to add to Watch List:</b><input type="text" id="title" name="title"> <br>
+                 <br>
+                 <b>Streaming service:</b><input type="text" id="service" name="service"> <br>
+                 <br>
+                </fieldset>
+                <br>
+            <div class="button-container">
+              <input type= "reset" id="resetForm">
+              <input type="submit" value="Submit Application"onclick="return confirm('Are you sure you want to add to your watchlist?')">
+            </div>
+            </form>
+            
+           
+</div>
+    </body>
+    </html>
